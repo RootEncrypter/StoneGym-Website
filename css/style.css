@@ -1,0 +1,459 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+   /* background: url(../img/back.jpg); */
+
+    
+}
+/* Global */
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/* Header */
+header
+{
+    background-color: #35424a;
+    color: #ffffff;
+    min-height: 70px;
+    padding-top: 30px;
+    border-bottom: #e8491d solid;
+    position: fixed;
+    width: 100%;
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+    
+}
+
+header li
+{
+list-style-type: none;
+border: #ffffff 1px solid;
+display: inline;
+padding : 5px 20px 5px 20px;
+transition: 0.9s ease;
+}
+
+#brand
+{
+    float: left;
+}
+
+header nav
+{
+    float: right;
+    margin-top: 11px;
+}
+
+header .highlight
+{
+    color: #e8491d;
+    font-style: italic;
+    font-size: 40px;
+    font-family: '-apple-system';
+    text-transform: uppercase;
+}
+
+.high2
+{
+    font-size: 25px;
+    font-weight: normal;
+    font-family: serif;
+}
+header .current a
+{
+    color: #e8491d;
+    
+}
+
+header li:hover,header a:hover{
+    color: #e8491d;
+    font-weight: bold;
+    background: white;
+}
+
+/* Middle area */
+
+#showcase
+{
+    min-height: 760px;
+    background:linear-gradient(rgba(104, 94, 94, 0.5),rgba(104, 94, 94, 0.5)) ,url(../img/middle2.jpg) 0 -150px no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.ok
+{
+    color: #e8491d;
+    font-size: 35px;
+    word-spacing: 2.5rm;
+}
+
+.ok2
+{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.ok3
+{
+    color: #e8491d;
+    font-size: 65px;
+  
+}
+
+.ok4
+{
+    color: #ffffff;
+    font-size: 65px;
+}
+
+.slogan 
+{
+    margin : 300 0 0 0;
+}
+
+/* Motivation */
+#motivation
+{
+    min-height: 700px;
+    background-color: f0f0f0;
+}
+
+#motivation .mot
+{
+   width: 30%;
+    display: inline-block;
+    margin: 35 0 0 0 ;
+    text-align: center;
+    padding: 15px;
+}
+
+.mot img
+{
+    width: 70px;
+    
+}
+.mot h3
+{
+    padding: 10px 0 10px 0;
+    font-weight: normal;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mot p
+{
+    font-size: 19px;
+    font-weight: normal;
+}
+
+#motivation h1  
+{
+
+    font-size: 50px;
+    text-align: center;
+    margin: 50px    0 0 0;
+    font-weight: normal;
+
+}
+
+#reviews
+{
+    min-height: 850px;
+}
+
+#reviews .rev
+{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: 50px     0 0 20px;
+   
+    
+    padding: 5px ;
+    
+}
+
+.rev img
+{
+    width: 90px ;
+    border-radius: 100%;
+}
+
+.rev h3{
+    padding:  10px 0 10px 0;
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+.rev p
+{
+    color: #707070;
+}
+
+#reviews h2{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 40px;
+    
+    
+}
+
+
+
+/* footer */
+
+
+
+.layer1
+{
+    min-height: 180px;
+    background-color: #222222;
+}
+
+.icons ul
+{
+    text-align: center;
+    margin:  75 0 0 0;
+}
+
+.icons ul li
+{
+    display: inline;
+    padding: 0 40 0 40;
+    font-size: 30px;
+    /* border: #ffffff 1px solid; */
+    /* border-radius: 50%; */
+}
+
+.icons ul li i{
+    /* border: #ffffff 1px solid; */
+    /* border-radius: 100%; */
+    /* padding: 10 10 10 10; */
+    color: #5d963f;
+    background-color: #222222;
+}
+
+.icons p
+{
+    text-align: center;
+    margin-top: 25px;
+    color: #ffffff;
+    font-style: italic;
+    font-size: 25px;
+    font-family: 'monaco';
+}
+.layer2
+{
+    min-height: 75px;
+    background-color: #5d963f ;
+    text-align: center;
+}
+
+.dil1
+{
+    line-height: 2.6em;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Arial Narrow';
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.dil2
+{
+    font-size: small;
+    color: #ffffff;
+    font-family: 'Monaco';
+}
+
+/* -----------------------------------End of Index----------------------------------------------- */
+
+#gallery
+{   background: linear-gradient(rgba(104, 94, 94, 0.5),rgba(104, 94, 94, 0.5)),url(../img/gal.jpg) 0 no-repeat;
+    background-size: cover;
+    min-height: 1100px;
+    
+    
+}
+#gallery h1
+{
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 150px;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    font-weight: lighter;
+    padding :0 0 40 0;
+    font-family: 'Brush Script MT';
+}
+
+#gallery .gals
+{
+    display: inline-block;
+   
+    padding: 15 15 15 15 ;
+}
+
+#gallery img{
+    width: 350px;
+    border: #ffffff 1px solid;
+    transition: 0.9s ease;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#gallery img:hover
+{
+    transform: scale(1.2);
+    
+    overflow: hidden;
+}
+
+
+
+
+/* -----------------------------------End of Gallery----------------------------------------------- */
+#boxes
+{
+   
+    min-height:560px ;
+    /* background: linear-gradient(rgba(145, 125, 125, 0.685),rgba(145, 125, 125, 0.685)),url(../img/backlast.jpg) 0 -200px; */
+    
+    overflow: hidden;
+    background-color: #ececee;
+   
+    
+
+    
+    
+}
+
+#team
+{
+    min-height: 550px;
+   
+}
+
+#team h2
+{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: 'Brush Script MT';
+    font-style: italic;
+    text-decoration: underline;
+    color:#e8491d;
+}
+#team .box
+{
+    float: left;
+    width: 30%;
+    
+    /* padding: 10px; */
+    margin: 75 0 0 140;
+    padding: 30px;
+    text-align: center;
+    border: #e8491d 1px solid;
+    background-color: #e6e6ee;
+    box-shadow: 5px 10px #888888;
+}
+
+#team .box img
+{
+    width: 90px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+}
+
+#team .box h3
+{
+    font-family: cursive;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+ .intro
+{
+    
+    
+    
+    padding : 25 25 25 25;
+    text-align: left;
+    margin-top: 100px;
+   
+    /* border: #e8491d 1px dotted; */
+    /* background-color: rgba(95, 207, 101, 0.452); */
+    
+    
+    
+    
+
+}
+
+.intro h2
+{
+    
+    font-family: cursive   ;
+    padding-bottom: 20px;
+     
+ } 
+
+
+ .intro p{
+    font-family: Comic Sans MS;
+    font-size: 20px;
+  text-align: left;
+      
+    
+   
+}  
+
+#maps
+{
+    min-height: 600px;
+}
+
+#maps .loc
+{
+    text-align: center;
+}
+
+.loc h2
+{
+    margin-bottom: 25px;
+    font-size: 50px;
+    font-family: 'Brush Script MT';
+    color: #e8491d;
+    font-weight: normal;
+}
+
+
+/* .niggas
+{
+    
+    margin-left: 250px;
+    margin-top: 50px;
+   
+} */
+
+/* -----------------------------------End of About us----------------------------------------------- */
